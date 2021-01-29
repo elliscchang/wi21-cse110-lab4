@@ -32,4 +32,15 @@
     D. false, because its doing a strict comparision between the number 2 and a string 2 which is false \
     E. false, because true is also equal to 1 so we are checking if 1 and 2 are the same which it's not, so we get false \
     F. true, because Boolean(2) is true so it does a strict comparison if true is equal to true which is true.
-16.
+16. ```==``` is a regular equality check which allows type conversion whereas ```===``` is a strict equality operator which checks equality without type conversion and leaves less room for errors.
+17. ```'How are you?'``` gets printed when it checks the first if statement, ```2 == true``` is false because it converts true to a value of 1 which 2 is not equal to 1 and moves to the ```if else``` condition where it checks if 2 is a true value and javascript, by default, sets all values to truth values, except null, NaN, and 0 which are all false values. This is why it prints out ```'How are you?'```.
+18. Check part1-question18.js file
+19. The result should be ```[6, 8, 10]``` because when it goes throught he ```for``` loop, is goes to the callback function which is the doSomething function so it will take the first element of the input array and add 2 to it so 1 becomes a 3. Then it goes through the function and multiplies it by 2 and returns that value to be appended to the ```newArr```. Then it loops to the next element in the for loop so 2. 2 + 2 becomes 4 and then gets multiplied by 2 which is 8 and then pushed to ```newArr```. The samething happens for the last element, 3, and eventually becomes 10. So after returning ```newArr```, the array is ```[6, 8, 10]```.
+20. Check part1-question20.js file
+21. The output of this code is
+```
+1
+4
+3
+2
+```
