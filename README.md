@@ -1,3 +1,3 @@
 # wi21-cse110-lab4
-Ellis Chang
+Ellis Chang \
 email: ecc013@ucsd.edu
